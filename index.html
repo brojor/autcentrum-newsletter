@@ -1,0 +1,302 @@
+x<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Newsletter</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+      :root {
+        font-size: 62.5%;
+      }
+      body {
+        position: relative;
+        background: gray;
+        font-family: 'Montserrat', sans-serif;
+      }
+      header {
+        display: flex;
+        align-items: center;
+        font-family: 'Roboto Slab', serif;
+        height: 6rem;
+        background: #f5b400;
+      }
+      header h1 {
+        margin-left: 1rem;
+        color: #a4241c;
+        letter-spacing: 1px;
+      }
+      header .logo {
+        width: 4rem;
+        /*margin: 1rem;*/
+        margin-left: 1rem;
+      }
+      .paper {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        /*width: 210mm;*/
+        width: 168mm;
+        /*height: 297mm;*/
+        height: 237.6mm;
+        background: white;
+      }
+      footer {
+        background: #f5b400;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+      }
+      footer div {
+        margin: 1rem;
+        display: flex;
+        align-items: center;
+        /*font-size: 1.2rem;*/
+      }
+      footer div p {
+        margin-left: 0.5rem;
+      }
+      footer div i {
+        margin-top: 0.4rem;
+      }
+      img {
+        border-radius: 50%;
+        width: 100%;
+      }
+      main {
+        flex-grow: 1;
+        padding: 0 5rem;
+      }
+      .poselstvi {
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        text-align: center;
+
+        margin-bottom: 0.5rem;
+        margin-top: 2rem;
+        font-size: 2.5rem;
+      }
+      .row {
+        display: flex;
+        align-items: stretch;
+        margin-bottom: 1rem;
+      }
+      .text1 {
+        width: 50%;
+        margin: 2rem 0;
+        text-align: justify;
+        flex-grow: 1;
+        font-size: 1.1rem;
+      }
+      .text1:first-of-type:first-letter {
+        padding-right: 1rem;
+        float: left;
+        font-size: 2rem;
+        color: #a4241c;
+        font-weight: bold;
+      }
+      .img {
+        display: flex;
+        align-items: center;
+        width: 30%;
+        /*margin: 2rem;*/
+      }
+      .img-left {
+        margin-right: 2rem;
+      }
+      .img-right {
+        margin-left: 2rem;
+      }
+      .links {
+        color: #a4241c;
+        font-size: 1.3rem;
+      }
+
+      .links li {
+        display: flex;
+        align-items: center;
+        margin-left: 1rem;
+      }
+      .links ul {
+        padding: 0;
+      }
+      .links li p {
+        margin-left: 1rem;
+      }
+      li img {
+        width: 1.5rem;
+      }
+      a {
+        text-decoration: none;
+        color: #0046b1;
+        font-size: 1.1rem;
+      }
+      a:hover {
+        color: #002152;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="paper">
+      <header>
+        <div class="logo">
+          <img
+            src="https://www.aut-centrum.cz/design/logo_ac.png"
+            alt="logo autcentra"
+          />
+        </div>
+
+        <h1>AUT-Centrum o.p.s.</h1>
+      </header>
+      <main>
+        <h1 class="poselstvi">Poselství na <span>9. týden</span> roku 2020</h1>
+        <div class="row">
+          <div class="img img-left">
+            <img class="img1" src="https://picsum.photos/id/1005/300/300" />
+          </div>
+
+          <p class="text1">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nulla
+            sapien, lobortis at lacus et, luctus auctor dolor. Donec ullamcorper
+            purus a diam volutpat sodales. Ut viverra, tortor eget vestibulum
+            ullamcorper, lorem dui scelerisque tellus, ut aliquam arcu lectus
+            sodales erat. Donec a malesuada orci, at porta ipsum. Pellentesque
+            luctus eget mauris a accumsan. In et euismod quam. In imperdiet
+            commodo pharetra. Integer pellentesque in neque sit amet congue.
+            Donec scelerisque lacinia mauris, ac aliquam dui commodo ut. Nam et
+            nibh elementum, sagittis urna maximus, ullamcorper diam. Fusce
+            gravida ut felis ut hendrerit. Mauris justo metus, cursus ac lorem
+            volutpat, tincidunt scelerisque lorem. In interdum massa vestibulum
+            leo laoreet, eget viverra nulla interdum. Mauris pharetra ex sapien,
+            in volutpat purus mattis nec. Vestibulum ante ipsum primis in
+            faucibus orci luctus et ultrices posuere cubilia curae; Suspendisse
+            et libero ac nibh tincidunt finibus. Ut quis quam ante. Sed laoreet
+            leo quis erat aliquet auctor. Donec in ante id diam lobortis
+            tincidunt at sed nibh. Donec consectetur id felis gravida malesuada.
+            Aliquam erat volutpat.
+          </p>
+        </div>
+        <div class="row">
+          <p class="text1">
+            Dolor sit amet, consectetur adipiscing elit. Nam nulla sapien,
+            lobortis at lacus et, luctus auctor dolor. Donec ullamcorper purus a
+            diam volutpat sodales. Ut viverra, tortor eget vestibulum
+            ullamcorper, lorem dui scelerisque tellus, ut aliquam arcu lectus
+            sodales erat. Donec a malesuada orci, at porta ipsum. Pellentesque
+            luctus eget mauris a accumsan. In et euismod quam. In imperdiet
+            commodo pharetra. Integer pellentesque in neque sit amet congue.
+            Donec scelerisque lacinia mauris, ac aliquam dui commodo ut. Nam et
+            nibh elementum, sagittis urna maximus, ullamcorper diam. Fusce
+            gravida ut felis ut hendrerit. Mauris justo metus, cursus ac lorem
+            volutpat, tincidunt scelerisque lorem. In interdum massa vestibulum
+            leo laoreet, eget viverra nulla interdum.
+          </p>
+          <div class="img img-right">
+            <img class="img1" src="https://picsum.photos/id/1025/300/300" />
+          </div>
+        </div>
+        <div class="links">
+          <h3>Doporučené odkazy:</h3>
+          <ul>
+            <li>
+              <img
+                src="https://s2.svgbox.net/social.svg?ic=youtube&color=000"
+                width="32"
+                height="32"
+              />
+              <p>
+                <span>Youtube </span> -
+                <a href="https://youtu.be/Bxw9e-_XPEk"
+                  >27 MINUT MEDITACE | mluvené slovo | dýchání, očista mysli</a
+                >
+              </p>
+            </li>
+            <li>
+              <img
+                src="https://s2.svgbox.net/social.svg?ic=youtube&color=000"
+                width="32"
+                height="32"
+              />
+              <p>
+                <span>Youtube</span> -
+                <a href="https://www.youtube.com/watch?v=YTeIFqQ3a5Y"
+                  >KVANTOVÝ SKOK: řízená meditace na změnu reality</a
+                >
+              </p>
+            </li>
+            <li>
+              <img
+                src="https://s2.svgbox.net/social.svg?ic=google-podcasts&color=000"
+                width="32"
+                height="32"
+              />
+              <p>
+                <span>Podcast</span> -
+                <a href="https://psychologie.cz/uvolnete-se/">Uvolněte se</a>
+              </p>
+            </li>
+          </ul>
+        </div>
+      </main>
+      <footer>
+        <div>
+          <i
+            ><svg
+              width="15"
+              height="25"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              color="#000"
+            >
+              <path d="M0 0h24v24H0z" fill="none"></path>
+              <path
+                d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"
+              ></path></svg
+          ></i>
+          <p>+420 730 897 041</p>
+        </div>
+        <div>
+          <i
+            ><svg
+              width="15"
+              height="15"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+              color="#000"
+            >
+              <path
+                d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"
+              ></path>
+              <path
+                d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"
+              ></path></svg
+          ></i>
+
+          <p>kontakt@aut-centrum.cz</p>
+        </div>
+        <div>
+          <i
+            ><svg
+              width="15"
+              height="15"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              color="#000"
+            >
+              <path d="M0 0h24v24H0z" fill="none"></path>
+              <path
+                d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 010-5 2.5 2.5 0 010 5z"
+              ></path></svg
+          ></i>
+          <p>Pod Brentovou 555/6, Praha 5</p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
