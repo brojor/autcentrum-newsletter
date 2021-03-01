@@ -1,4 +1,4 @@
-x<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -67,6 +67,7 @@ x<!DOCTYPE html>
         width: 100%;
       }
       main {
+        position: relative;
         flex-grow: 1;
         padding: 0 5rem;
       }
@@ -90,6 +91,7 @@ x<!DOCTYPE html>
         text-align: justify;
         flex-grow: 1;
         font-size: 1.1rem;
+        z-index: 1;
       }
       .text1:first-of-type:first-letter {
         padding-right: 1rem;
@@ -102,6 +104,7 @@ x<!DOCTYPE html>
         display: flex;
         align-items: center;
         width: 30%;
+        z-index: 1
         /*margin: 2rem;*/
       }
       .img-left {
@@ -137,6 +140,14 @@ x<!DOCTYPE html>
       a:hover {
         color: #002152;
       }
+      .background-image {
+        position: absolute;
+        top: 2.5rem;
+        left: 0;
+        margin: 2rem;
+        z-index: 0;
+        opacity: 0.3;
+      }
     </style>
   </head>
   <body>
@@ -152,6 +163,12 @@ x<!DOCTYPE html>
         <h1>AUT - Centrum o.p.s.</h1>
       </header>
       <main>
+        <div class="background-image">
+          <img
+            src="https://st2.depositphotos.com/3265301/6716/v/600/depositphotos_67160853-stock-illustration-ethnic-decorative-elements.jpg"
+            alt=""
+          />
+        </div>
         <h1 class="poselstvi">Poselství na <span>9. týden</span> roku 2020</h1>
         <div class="row">
           <div class="img img-left">
